@@ -7,6 +7,8 @@ intro to computer science
 
 What makes a computer a computer?  
 
+Computers are essentially machines that manipulate information. Computer take in information (input), store that information as data, process it, then output or display the results. These four things (input, storage, processing, and output) are common to ALL computers. So, any machine that performs these, is considered a computer.  
+
 ## Information is Represented using Electricity  
 
 01 - super fast ON & OFFs  
