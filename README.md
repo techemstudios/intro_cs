@@ -11,9 +11,11 @@ Computers are essentially machines that manipulate information. Computer take in
 
 ## Information is Represented using Electricity  
 
-01 - super fast ON & OFFs  
+Zeroes and ones play a major role in how computers work on the inside.
 
-## Computer use Circuits  
+## Computers use Circuits  
+
+Computers use wires and circuits to carry all the information./
 
 ## Computer Parts  
 
