@@ -2,6 +2,13 @@
 
 ## Practicing Efficiency  
 
+#### Abstract  
+This is a small tutorial on how to test your Python code.  
+
+Level: Middle-Intermediate  
+
+## Introduction  
+
 As you write your own functions and classes, it is always a good idea to write tests for them. To *prove* your code works, you test it to ensure everything works as it should in response to all the input types you've designed it to receive.  
 
 Every programmer makes mistakes, so it's a good idea to that every programmer must test their code frquently. This way, they can catch problems before users run into them.  
@@ -11,6 +18,8 @@ Every programmer makes mistakes, so it's a good idea to that every programmer mu
 We'll learn to test our own code using Python tools found in the `unittest` module. We'll also learn how to build a **test case** and check that a set of input results in the output you want.  
 
 We will see what a passing test looks like, as well as what a failing test looks like. A failing test can help you improve your code. We'll learn how to test your own functions and classes, and start to understand how many tests to write for a particular project.  
+
+# Getting Started  
 
 ### Test a Function  
 
