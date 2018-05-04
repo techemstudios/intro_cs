@@ -1,0 +1,4 @@
+Charles Babbage is known as the father of computers.
+Babbage built a working Babbage machine.
+Oh wait, there wasn't a working Babbage machine built until the next century.
+You can use object-oriented design to model real world concepts.

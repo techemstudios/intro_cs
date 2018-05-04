@@ -1,0 +1,2 @@
+George Boolean was a mathematician.
+BOOL, is short for Boolean, and is considered a data type.
