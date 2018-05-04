@@ -1,5 +1,6 @@
-# intro_to_cs
-intro to computer science  
+# Intro to Computer Science  
+
+ Repository to hold all lessons and materials releated to computer science instruction.
 
 # How Computers Work  
 
