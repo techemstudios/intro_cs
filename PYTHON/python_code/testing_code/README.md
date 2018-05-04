@@ -1,5 +1,7 @@
 # Test Your Code  
 
+## Practicing Efficiency  
+
 As you write your own functions and classes, it is always a good idea to write tests for them. To *prove* your code works, you test it to ensure everything works as it should in response to all the input types you've designed it to receive.  
 
 Every programmer makes mistakes, so it's a good idea to that every programmer must test their code frquently. This way, they can catch problems before users run into them.  
@@ -208,8 +210,17 @@ class NameTestCase(unittest.TestCase):
 unittest.main()
 ```  
 
+In order for the method to run automatically when we run *test_name_function.py*, the method must start with *test_*.  
 
+`assertEqual()` is used to check that the returned full name matches the full name (first, middle, last) you'd expect.  
 
+#### Best Practice: Have Descriptive Method Names  
+Be sure to name your new method so as to make it clear which behavior of `get_formatted_name()` you're testing. Doing so, will make sense of the output and makes it easier for you to recognize quicker what is affected after a test failure.  
+
+#### Python Calls the unittest's Methods Automatically  
+So, you will never have to write code calling these methods (i.e. practicing efficiency!).  
+
+#### example output after running *test_name_function.py* automatically  
 ```  
 .
 ----------------------------------------------------------------------
@@ -217,3 +228,5 @@ Ran 1 test in 0.009s
 
 OK
 ```  
+
+Having performed these tests that are now all passing for names like `Jimi Hendrix`, likewise you can be UNPERTURBED your function will be successful at handling names like `Marie Francis Curie`.  
