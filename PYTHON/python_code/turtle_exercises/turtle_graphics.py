@@ -1,22 +1,36 @@
 import turtle
 
-def draw_square(some_turtle):
-    for i in range (1, 5):
-        some_turtle.forward(100)
-        some_turtle.right(90)
+def square(t):
+    for i in range (4):
+        t.fd(100)
+        t.rt(90)
+
+def star(t):
+    for i in range(5):
+        t.fd(200)
+        t.rt(144)
 
 def draw_art():
     window = turtle.Screen()
-    window.bgcolor('red')
+    window.bgcolor('black')
     # Create a turtle frank - draws a square
     frank = turtle.Turtle()
-    frank.color('yellow')
+    frank.color('green')
+    frank.pencolor('white')
     frank.shape('turtle')
-    frank.speed(2)
-    
-    for i in range (1, 36):
-        draw_square(brad)
-        frank.right(10)
+    frank.speed(100)
+
+    for i in range(28):
+        square(frank)
+        frank.rt(10)
+
+    frank.up()
+    frank.sety(50), frank.setx(-150)
+    frank.down()
+
+    for i in range(40):
+        star(frank)
+        frank.rt(10)
     
     window.exitonclick()
     
