@@ -325,7 +325,7 @@ To run the code, open a terminal window and enter the command below:
 $ python ks.py --display  
 ```  
 
-You should get a window that pops up with the `matplotlib` plot shoing the Karplus-String algorithm that converts the initial random displacements to create the frequency waves.  
+You should get a window that pops up with the `matplotlib` plot showing the Karplus-String algorithm that converts the initial random displacements to create the frequency waves.  
 
 <center>  
 
